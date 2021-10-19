@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!--CSS style-->
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search a city">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+    
+
+        <div class="weather loading">
+            <h2 class="city">Buenos Aires</h2>
+            <h1 class="temp">20°C</h1>
+            <div class="icon-description">
+                <img src="https://openweathermap.org/img/wn/09d.png" alt="icon" class="icon">
+                <div class="description"><h3>Cloudy</h3></div>
+            </div>
+            <div class="humidity-wind">
+                <div class="icon-humidity">
+                    <i class="fas fa-tint"></i><div class="humidity"><p>Humidity: 70%</p></div>
+                </div>
+                
+                <div class="icon-wind">
+                    <i class="fas fa-wind"></i><div class="wind"><p>Wind speed: 20 km/h</p></div>
+                </div>
+            </div>           
+        </div>
+    </div>
+    
+</body>
+
+<!--JavaScript-->
+<script src="script.js"></script>
+
+</html>
